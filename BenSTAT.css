@@ -1,0 +1,222 @@
+/**
+	* Benstat - predloga za anketni sistem 1ka 
+	**/
+
+/**
+	* Definicija uporabljenih pisav 
+	**/
+/* Droid Sans */
+/* nastavitev za IE */
+@font-face {
+	font-family: Andada;
+	src: url('http://www.bubi.si/datoteke/benstat-predloga/pisave/Andada-Regular.eot');
+}
+/* nastavitev za normalni splet */
+@font-face {
+	font-family: Andada;
+	src: url('http://www.bubi.si/datoteke/benstat-predloga/pisave/Andada-Regular.ttf') format('truetype');
+}
+
+/**
+	* splošni HTML stil 
+	**/
+html {
+	margin:0;
+	padding:0;
+}
+body {
+	margin:0;
+	padding:0;
+	color:#5e5e5e;
+	background-color:#ffffff;
+	background-image:url('http://www.bubi.si/datoteke/benstat-predloga/slike/benstat-ozadje.png');
+	font-family: Andada, sans;
+	font-size:0.9em;
+	min-width: 980px;
+}
+
+h1 {
+	margin:0;
+	padding:0;
+	display:block;
+	position:relative;
+	margin-top:-55px;
+	padding-bottom:10px;
+	padding-left:10%;
+	height:49px;
+	font-size:1.5em;
+	color:#ffffff;
+	text-align:left;
+	background-color:transparent;
+	background-repeat:repeat-x;
+	background-position:bottom left;
+	background-image:url('http://www.bubi.si/datoteke/benstat-predloga/slike/benstat-ozadje-glava-cikcak.gif');
+}
+
+h1 span {
+	display:none;
+}
+
+div {
+	margin:0;
+	padding:0;
+}
+
+p {
+	margin:0;
+	padding:0;
+	margin-top:7px;
+	margin-bottom:8px;
+}
+
+p em {
+	margin:0;
+	padding:0;
+	color:#5e5e5e;
+	font-size:0.8em;
+}
+
+table {
+	width:100%;
+	border-spacing:0;
+}
+
+/**
+	* stil id-jev
+	**/
+#logo {
+	margin:0;
+	padding:0;
+	position:relative;
+	right:none;
+	background-repeat:repeat;
+	height:125px;
+	background-color:gray;
+	background-image:url('http://www.bubi.si/datoteke/benstat-predloga/slike/benstat-ozadje-glava.gif');
+}
+
+#logo a {
+	margin:0;
+	padding:0;
+	margin-right:10%;
+	display:block;
+	float:right;
+	height:125px;
+	width:175px;
+	background-image:url('http://www.bubi.si/datoteke/benstat-predloga/slike/benstat-logo.png');
+	background-repeat:no-repeat;
+	text-indent:-9999999px; /* premaknemo napis 1ka izven vidnega polja povezave */
+}
+
+#preview {
+	margin:0;
+	padding:0;
+	font-size:0.7em;
+	border:2px solid #bb0000;
+	-webkit-border-radius:10px 10px 10px 10px;
+	-moz-border-radius:10px 10px 10px 10px;
+	border-radius:10px 10px 10px 10px;
+	background-color:#ffffff;
+	background-image:url('http://www.bubi.si/datoteke/benstat-predloga/slike/benstat-ozadje.png');
+}
+
+#progress_bar {
+	margin:0;
+	padding:3px;
+	display:block;
+	position:relative;
+	float:left;
+	margin-top:-100px;
+	margin-left:10%;
+	border:2px solid #bb0000;
+	background-color:#ffffff;
+	background-image:url('http://www.bubi.si/datoteke/benstat-predloga/slike/benstat-ozadje.png');
+}
+
+#progress_bar span {
+	float:left;
+}
+
+#progress_bar div {
+	margin:0;
+	padding:0;
+	margin-left:5px;
+	margin-right:5px;
+	display:inline-block;
+	height:14px;
+	width:200px;
+	border:1px solid #5e5e5e;
+	float:left;
+}
+
+#progress_bar div span {
+  display:inline-block;
+	height:14px;
+	float:none;
+	background-color:#5e5e5e;
+}
+
+#footer_survey {
+	display:none;
+}
+	
+/**
+	* stil class-ov 
+	**/
+div.naslov {
+	margin:0;
+	padding:0;
+	font-size:0.9em;
+	font-weight:normal;
+	color:#5e5e5e;
+}
+
+div.naslov p strong {
+	margin:0;
+	padding:0;
+	font-size:1.1em;
+	font-weight:bold;
+	color:#bb0000;
+}
+
+div.spremenljivka {
+	margin:0;
+	padding:0;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:10%;
+	padding-right:10%;
+	background-repeat:repeat-x;
+	background-position:bottom left;
+	background-image:url('http://www.bubi.si/datoteke/benstat-predloga/slike/benstat-vodoravna-crta.png');
+}
+
+div.spremenljivka_info {
+	margin:0;
+	padding:0;
+	font-size:0.8em;
+	color:#5e5e5e;
+	font-weight:bold;
+}
+
+div.buttons {
+	margin:0;
+	padding:0;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10%;
+	padding-right:10%;
+	text-align:center;
+	margin-bottom:55px;
+}
+
+table.grid_table tbody tr:nth-child(2n+1) {
+	background-color:#f0f0f0;
+}
+
+span.reminder {
+	margin:0;
+	padding:0;
+	padding-left:7%;
+}
+
