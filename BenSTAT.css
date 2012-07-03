@@ -31,7 +31,7 @@ body {
 	background-color:#ffffff;
 	background-image:url('http://www.bubi.si/datoteke/benstat-predloga/slike/benstat-ozadje.png');
 	font-family: Andada, sans;
-	font-size:0.9em;
+	font-size:1.1em;
 	min-width: 980px;
 }
 
@@ -46,7 +46,7 @@ h1 {
 	height:49px;
 	font-size:1.5em;
 	color:#ffffff;
-	text-align:left;
+	text-align:center;
 	background-color:transparent;
 	background-repeat:repeat-x;
 	background-position:bottom left;
