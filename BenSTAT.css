@@ -128,6 +128,7 @@ table {
 	float:left;
 	margin-top:-100px;
 	margin-left:10%;
+	font-size:0.8em;
 	border:2px solid #bb0000;
 	background-color:#ffffff;
 	background-image:url('http://www.bubi.si/datoteke/benstat-predloga/slike/benstat-ozadje.png');
@@ -143,7 +144,7 @@ table {
 	margin-left:5px;
 	margin-right:5px;
 	display:inline-block;
-	height:14px;
+	height:16px;
 	width:200px;
 	border:1px solid #5e5e5e;
 	float:left;
@@ -151,7 +152,7 @@ table {
 
 #progress_bar div span {
   display:inline-block;
-	height:14px;
+	height:16px;
 	float:none;
 	background-color:#5e5e5e;
 }
