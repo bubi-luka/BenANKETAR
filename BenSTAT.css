@@ -132,17 +132,18 @@ table {
 	border:2px solid #bb0000;
 	background-color:#ffffff;
 	background-image:url('http://www.bubi.si/datoteke/benstat-predloga/slike/benstat-ozadje.png');
+	width:302px;
 }
 
 #progress_bar span {
 	float:left;
+	text-align:center;
+	width:50px;
 }
 
 #progress_bar div {
 	margin:0;
 	padding:0;
-	margin-left:5px;
-	margin-right:5px;
 	display:inline-block;
 	height:16px;
 	width:200px;
@@ -167,6 +168,7 @@ table {
 div.naslov {
 	margin:0;
 	padding:0;
+	margin-bottom:15px;
 	font-size:0.9em;
 	font-weight:normal;
 	color:#5e5e5e;
@@ -211,8 +213,23 @@ div.buttons {
 	margin-bottom:55px;
 }
 
-table.grid_table tbody tr:nth-child(2n+1) {
-	background-color:#f0f0f0;
+div.variable_holder {
+	margin:0;
+	padding:0;
+}
+
+table.grid_table {
+	background-color:#5e5e5e;
+	color:#f6f6f6;
+	border:5px solid #ffffff;
+}
+table.grid_table tbody tr:nth-child(odd) {
+	background-color:#f6f6f6;
+	color:#5e5e5e;
+}
+table.grid_table tbody tr:nth-child(even) {
+	background-color:#e6e6e6;
+	color:#5e5e5e;
 }
 
 span.reminder {
